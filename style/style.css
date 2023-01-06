@@ -88,7 +88,7 @@ nav{
 .experience > img{
     width: 700px;
     border-radius: 50%;
-    border-bottom: 20px solid gray;
+    border-bottom: 20px solid #5F481F;
 }
 
 .experience-info > h1{
@@ -116,6 +116,11 @@ nav{
     letter-spacing: 2px;
 }
 
+.achievement > h1{
+    color: #fff;
+    background-color: #323A3D;
+}
+
 .achievement-items-container{
     display: flex;
     justify-content: space-around;
@@ -140,4 +145,64 @@ nav{
 
 .achievement-item > img{
     width: 50px;
+}
+
+
+/* footer section */
+footer{
+    color: #fff;
+    padding: 5rem 0;
+    background-color: #323A3D;
+}
+
+form > h5{
+    color: #ddd;
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+form > input{
+    margin: 10px 0;
+    padding: 1rem;
+    border-radius: 4px;
+    width: 100%;
+    border: none;
+}
+form > button{
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #323A3D;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+form > button:hover{
+    background-color: #fff;
+    color: #323A3D;
+}
+
+.footer-container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info-about > h3{
+    color: #ddd;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.footer-info-about > ul{
+    list-style-type: none;
+    color: #999;
+}
+
+.social-item{
+    margin-top: 10px;
+}
+
+.social-item > i{
+    margin-right: 10px;
 }
