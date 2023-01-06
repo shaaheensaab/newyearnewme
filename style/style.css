@@ -181,7 +181,7 @@ nav{
 /* footer started */
 footer{
     color: #fff;
-    padding: 5rem 0;
+    padding: 5rem 0 2rem 0;
     background-color: #323A3D;
 }
 
@@ -192,7 +192,7 @@ form > h5{
 }
 
 form > input{
-    margin: 10px 0;
+    margin: 20px 0;
     padding: 1rem;
     border-radius: 4px;
     width: 100%;
@@ -235,5 +235,11 @@ form > button:hover{
 
 .social-item > i{
     margin-right: 10px;
+}
+
+.copyright{
+    color: #999;
+    font-size: 0.8rem;
+    text-align: center;
 }
 /* footer ended */
