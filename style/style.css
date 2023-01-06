@@ -4,7 +4,7 @@
     font-family: 'Righteous', cursive;
 }
 
-/* header section */
+/* header section started*/
 header{
     background-image: url(../images/skating-banner-bg.jpg);
     background-position: center;
@@ -77,9 +77,10 @@ nav{
     color: #fff;
     font-size: 1.5rem;
 }
+/* header section ended */
 
-/* main section */
 
+/* main section started*/
 .experience{
     width: 1200px;
     margin: 0 auto;
@@ -174,9 +175,10 @@ nav{
     text-align: right;
     padding: 10px 20px;
 }
+/* main section ended */
 
 
-/* footer section */
+/* footer started */
 footer{
     color: #fff;
     padding: 5rem 0;
@@ -234,3 +236,4 @@ form > button:hover{
 .social-item > i{
     margin-right: 10px;
 }
+/* footer ended */
