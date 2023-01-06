@@ -119,6 +119,7 @@ nav{
 .achievement > h1{
     color: #fff;
     background-color: #323A3D;
+    margin: 50px 0;
 }
 
 .achievement-items-container{
@@ -148,11 +149,17 @@ nav{
 }
 
 /* featured ad */
-.featured > img{
+.featured{
+    background-image: linear-gradient(to right, rgba(225, 245, 252, 0.50), rgba(110, 20, 100, 0.90)),
+    url(../images/skateboard-ad-gradient.png);
+    background-repeat: no-repeat;
+    width: 60%;
     height: 200px;
-    width: 900px;
-    display: flex;
     margin: 20px auto;
+    color: #fff;
+    font-size: 3rem;
+    text-align: right;
+    padding: 10px 20px;
 }
 
 
