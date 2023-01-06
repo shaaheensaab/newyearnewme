@@ -147,6 +147,14 @@ nav{
     width: 50px;
 }
 
+/* featured ad */
+.featured > img{
+    height: 200px;
+    width: 900px;
+    display: flex;
+    margin: 20px auto;
+}
+
 
 /* footer section */
 footer{
