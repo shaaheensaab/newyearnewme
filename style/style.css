@@ -20,6 +20,7 @@ nav{
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 20px;
+    border-bottom: 1px solid #fff;
 }
 
 .nav-items{
@@ -46,8 +47,10 @@ nav{
     color: #fff;
 }
 
-.nav-logo{
-    font-size: 2rem;
+.nav-logo a{
+    color: #fff;
+    font-size: 3rem;
+    text-decoration: none;
 }
 
 /* header info */
@@ -83,6 +86,16 @@ nav{
     display: flex;
     align-items: center;
     gap: 100px;
+}
+
+.exp1 > img{
+    border-bottom: none !important;
+}
+
+.exp1 span{
+    font-size: 3rem;
+    padding-right: 20px;
+    border-right: 500px solid #000;
 }
 
 .experience > img{
@@ -150,7 +163,7 @@ nav{
 
 /* featured ad */
 .featured{
-    background-image: linear-gradient(to right, rgba(225, 245, 252, 0.50), rgba(110, 20, 100, 0.90)),
+    background-image: linear-gradient(to right, rgba(5, 24, 52, 0.5), rgba(10,120, 139, 90)),
     url(../images/skateboard-ad-gradient.png);
     background-repeat: no-repeat;
     width: 60%;
